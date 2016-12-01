@@ -1,0 +1,19 @@
+{
+  "name": "bilbo-swagginz",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.7.9",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.2"
+  },
+  "devDependencies": {
+    "debug": "^2.3.3"
+  }
+}

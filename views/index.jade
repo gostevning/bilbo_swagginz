@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Lists all endpoint for the AWS account ending in #{account}
+
+  ul
+    for item in items
+      li
+        a(href="/swagger.html?url=/" + item.id) #{item.name}
