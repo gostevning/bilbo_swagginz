@@ -23,7 +23,7 @@ router.get('/', function (req, res) {
 
 });
 
-router.get('/:id', function (req, res) {
+router.get('/:id/', function (req, res) {
     var id = req.params.id;
 
     var params = {
